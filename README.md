@@ -1,25 +1,19 @@
+# Complete Unity Developer 2.0 - Section 3 - Planet Boost.
 
-## Background
-This is the [Complete Unity C# Developer 3D](http://gdev.tv/cu2github), the long-awaited sequel to the [Complete Unity C# Developer 2D](http://gdev.tv/cudgithub) - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects, our latest teaching techniques,. You will benefit from the fact we have already taught over 350,000 students game development, many shipping commercial games as a result.
+This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects, our latest teaching techniques,. You will benefit from the fact we have already taught over 250,000 students game development, many shipping commercial games as a result.
 
-You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo. You can check out the course here: [Complete Unity C# Developer 3D](http://gdev.tv/cu2github)
+You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo.
 
-## Project Pre-requisites
-In order to start this section you should have either finished [the previous section of this course](https://github.com/CompleteUnityDeveloper2/2_Terminal_Hacker), or be able to complete it's learning outcomes.
-
-# Project 3 - Project Boost
-This is a game inspired by the 1986 classic Thrust. The goal is to battle gravity and avoid obstacles to skillfully pilot your ship from a launch pad to a landing pad. A simple concept with a huge array of gameplay opportunities.
-
-## This Project's Learning Outcomes
-Basic Particle Effects. Local version control. Create C# scripts. Add Unity Components. Use coordinate systems, origins and anchor points. Create and maniplulate Unity prefabs. Do basic level design. (Ref: PB_CU2)
+## By In This Section
+Basic Particle Effects. Local version control. Basic UI & Menu. C# classes, function return values. Unity Components, coordinate systems, origins and anchor points, advanced prefabs. Level design. (Ref: PB_CU2)
 
 ## How To Build / Compile
 This is a Unity project. If you're familiar with source control, then "clone this repo". Otherwise download the contents, and navigate to `Assets > Levels` then open any `.unity` file.
 
 This branch is the course branch, each commit corresponds to a lecture in the course. The current state is our latest progress.
 
-## Video List / Curriculum
-Here are the video lectures that comprise this section. They are typically about 5-15 minutes long, and each commit contains the exact changes made to the project by the instructor in that video.
+## Lecture List
+Here are the lectures of the course for this section...
 
 ### 1 Welcome To Section 3 ###
 1. This game is based on the old classic Thrust.
@@ -77,15 +71,6 @@ Here are the video lectures that comprise this section. They are typically about
 3. Using 'Time.deltaTime' to predict frame time.
 4. Getting our ship rotating in space.
 
-### 10b Instructor Hangout 3.1 ###
-1. Why Git rather than Unity Collab (Jason).
-2. Clarifying the handedness rule finger order.
-3. Struggling SourceTree on Mac? Forum (Frank).
-4. How to re-centre pivot point on rocket (Rory).
-5. Adding box collider to odd shaped rocket (Andy).
-6. Adding [Prefix] to Q&A question and comments.
-7. Mad How Disease, and that 1000y old text!
-
 ### 11 Adding A Touch Of Audio ###
 1. There's an Audio Listener on the Main Camera.
 2. An Audio Source component makes sounds.
@@ -140,18 +125,6 @@ Here are the video lectures that comprise this section. They are typically about
 2. Creating an `enum` for our player state.
 3. Using Unity's `Invoke()` to delay load.
 
-### 20b Instructor Hangout 3.2 ###
-1. Abrupt sound stopping issue (thanks Gregory).
-1. Care of differences in Debug mode (thanks Jeff).
-1. Side-effect in FreezeRotation + code reviews (Jeff).
-1. Well done Morgaine for 1st screen recording!
-1. Curtis & Robert re “too slick for neophytes”.
-1. Default values & [SerializeField] (Mitchell)
-1. Frame-rate & FixedUpdate (Straesso).
-1. Tip about solid background (Manuel).
-1. Loving the levels on forum (resources).
-1. Keep engaging even if it’s all clear!
-
 ### 21 Playing Multiple Audio Clips ###
 1. You don't need a default audio clip on a source.
 2. Use `[SerializeField] AudioClip clipName` to expose a clip.
@@ -183,7 +156,7 @@ Here are the video lectures that comprise this section. They are typically about
 1. Create new folders within our Assets directory.
 2. Create new layout to help visualise all our assets.
 3. Manage our hierarchy by using empty Game Objects.
-4. Discover and address prefab linking issues.
+4. Discover and address prefab linking issues. 
 
 ### 27 Light Your Scene ###
 1. Understand all of the lights currently impacting your scene.
@@ -200,34 +173,3 @@ Here are the video lectures that comprise this section. They are typically about
 2. Examples of a number of game moments and level layouts.
 3. Level flow options.
 4. Challenge to capture your game moment using screen capture software and share.
-
-### 30 Debug Keys & Builds ###
-1. What debug keys are.
-2. Why they are useful.
-3. Setup debug keys to ignore collisions, and immediately load next level.
-4. Using `Debug.isDebugBuild` to keep debug keys out of final player build.
-
-### 30b Instructor Hangout 3.3 ###
-1. When will we teach mobile inputs? (Ken)
-2. Important to be good at math? (Adam & Cam)
-3. One script versus many scripts?
-4. What to do next with the project?
-
-### 31 Looping Through Levels ###
-1. Use `SceneManager.GetActiveScene().buildIndex` to get current Scene in Unity 2017
-2. `SceneManager.sceneCountInBuildSettings` to count scenes in build settings.
-3. Why we can't yet record total levels won.
-
-### 32 Sharing With Teaser Video ###
-1. More details about build order.
-2. Sharing with a teaser video.
-3. Using OBS to record your teaser.
-
-### 33 Spit & Polish ###
-Note there were some off-screen changes by Rick before this video.
-1. This is an open-ended video where we apply bugfixes and improvements.
-
-### 34 Section 3 Wrap-Up ###
-1. Great work in this section!
-2. We covered a lot of great C#, Unity and Game Design territory this section.
-3. Let's push on to the next section of the course.
